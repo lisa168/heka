@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* 通用样式 */
+*{ -webkit-tap-highlight-color: rgba(0,0,0,0);}
+html{-webkit-text-size-adjust:none; } 
+body, div, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, iframe, input, textarea, select, label, article, aside, footer, header, menu, nav, section, time, audio, video {margin:0; padding:0;}
+article, aside, footer, header, hgroup, nav, section, audio, canvas, video {display:block;}
+body { font-family: Microsoft YaHei, Helvetica Neue, Helvetica, STHeiTi, sans-serif; font-size:100%;}
+textarea {resize:none;-webkit-appearance:none;}
+iframe, img {border:0 none;}
+img{display: block;}
+ul, ol {list-style:none outside none;}
+input, select, textarea {outline:0 none;}
+.clear{ clear:both;}
+.clearfix:before, .clearfix:after {
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+.clearfix:after {
+    clear: both;
+}
+a{ text-decoration: none; color:#333;}
+input,input:focus,input:active{ -webkit-appearance:none; user-select: text; border:none; list-style:none;}
+.fl{ float:left;}
+.fr{ float:right;}
+h1{font-size: 1.2em;}
+p{font-size: 1em;}
+/*自定义样式*/
+body{width:100%;height:100%;background: url(../images/page_bg1.png) repeat #ef341e;}
+.page{width:100%;height: 100%;padding-top:20px;}
+.page .logo{width:85px;height:39px;margin-left:15px;background: url(../images/woao_logo.png) no-repeat;background-size: 100% auto;}
+.pageIcon{position:relative;width:100%;height: 240px;background: url(../images/sheepIcon.png) no-repeat center -10px;background-size: 100% 100%;margin-bottom:45px;}
+.success{position:absolute;left:50%;top:42px;width:170px;height:170px;margin-left: -85px;}
+.success img{width:100%;}
+.success_txt{position: absolute;left: 0;top: 200px;text-align: center;width:100%;color:#fedb7d;}
+.success_txt strong{font-size: 1.6em;}
+.success_txt p{font-size:1.2em;}
+.message{position:relative;height: 160px;width:100%;overflow: hidden;z-index:10;}
+.message li{font-size:0.9em;line-height: 20px;text-align: center; padding:10px 0;}
+.message li span{color:#feedbf;font-size:0.9em;}
+.message li p{color:#fedb7d;font-size:0.9em;}
